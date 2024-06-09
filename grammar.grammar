@@ -1,0 +1,7 @@
+# Sample grammar for string manipulation
+Program -> String
+String -> Token | Substring(String, Position, Position)
+Token -> 'example'
+Position -> Start | End
+Start -> 0
+End -> length(String)

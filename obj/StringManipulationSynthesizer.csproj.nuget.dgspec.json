@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj",
+        "projectName": "StringManipulationSynthesizer",
+        "projectPath": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj",
+        "packagesPath": "C:\\Users\\MCC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MCC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ProgramSynthesis": {
+              "target": "Package",
+              "version": "[8.35.1, )"
+            },
+            "Microsoft.ProgramSynthesis.Transformation.Text": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

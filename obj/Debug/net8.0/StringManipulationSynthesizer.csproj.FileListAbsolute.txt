@@ -1,0 +1,5 @@
+C:\Users\MCC\OneDrive - 한양대학교\바탕 화면\수업\석박수업\3기\프로그램 합성\StringManipulationSynthesizer\obj\Debug\net8.0\StringManipulationSynthesizer.csproj.AssemblyReference.cache
+C:\Users\MCC\OneDrive - 한양대학교\바탕 화면\수업\석박수업\3기\프로그램 합성\StringManipulationSynthesizer\obj\Debug\net8.0\StringManipulationSynthesizer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MCC\OneDrive - 한양대학교\바탕 화면\수업\석박수업\3기\프로그램 합성\StringManipulationSynthesizer\obj\Debug\net8.0\StringManipulationSynthesizer.AssemblyInfoInputs.cache
+C:\Users\MCC\OneDrive - 한양대학교\바탕 화면\수업\석박수업\3기\프로그램 합성\StringManipulationSynthesizer\obj\Debug\net8.0\StringManipulationSynthesizer.AssemblyInfo.cs
+C:\Users\MCC\OneDrive - 한양대학교\바탕 화면\수업\석박수업\3기\프로그램 합성\StringManipulationSynthesizer\obj\Debug\net8.0\StringManipulationSynthesizer.csproj.CoreCompileInputs.cache
