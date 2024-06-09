@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj": {}
+    "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\git\\pyresl_prose\\StringManipulationSynthesizer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj": {
+    "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\git\\pyresl_prose\\StringManipulationSynthesizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj",
+        "projectUniqueName": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\git\\pyresl_prose\\StringManipulationSynthesizer.csproj",
         "projectName": "StringManipulationSynthesizer",
-        "projectPath": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj",
+        "projectPath": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\git\\pyresl_prose\\StringManipulationSynthesizer.csproj",
         "packagesPath": "C:\\Users\\MCC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\obj\\",
+        "outputPath": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\git\\pyresl_prose\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MCC\\AppData\\Roaming\\NuGet\\NuGet.Config",

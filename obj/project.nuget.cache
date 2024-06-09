@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iTcEjWQyTls=",
+  "dgSpecHash": "1oL96/j2G5g=",
   "success": false,
-  "projectFilePath": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\StringManipulationSynthesizer\\StringManipulationSynthesizer.csproj",
+  "projectFilePath": "C:\\Users\\MCC\\OneDrive - 한양대학교\\바탕 화면\\수업\\석박수업\\3기\\프로그램 합성\\git\\pyresl_prose\\StringManipulationSynthesizer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MCC\\.nuget\\packages\\anglesharp\\0.9.10\\anglesharp.0.9.10.nupkg.sha512",
     "C:\\Users\\MCC\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",

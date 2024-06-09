@@ -1,7 +1,79 @@
-# Sample grammar for string manipulation
-Program -> String
-String -> Token | Substring(String, Position, Position)
-Token -> 'example'
-Position -> Start | End
-Start -> 0
-End -> length(String)
+@grammar
+import re
+
+@start string str := atom | Concat(strPair)
+
+string atom := str_in
+             | ConstStr(s)
+             | ToUpperCase(atom)
+             | ToLowerCase(atom)
+             | @id['LetSubstring'] let x:string = str_in in Substring(x, posPair)
+             | @id['LetDelete'] let x:string = str_in in Delete(x, atom)
+
+string str_in := Nth_str(vs, k) // = Kth(str_inputs, k)
+
+Tuple<string, string> strPair := StrPair(atom, str) = Pair(atom, str)
+
+Tuple<int?, int?> posPair := PositionPair(pos, pos) = Pair(pos, pos)
+
+int? pos := AbsolutePosition(x, k)
+          | RegexPosition(x, positionBoundaries, k)
+
+Tuple<Regex, Regex> positionBoundaries := RegexPair(r, r) = Pair(r, r)
+
+string s
+@input List[str] vs
+
+Regex r
+int k
+
+@operation
+def Nth_str(vs: List[str], k: int) -> str:
+    return vs[k]
+
+@operation
+def ConstStr(s: str) -> str:
+    return s
+
+@operation
+def ToUpperCase(s: str) -> str:
+    return s.upper()
+
+@operation
+def ToLowerCase(s: str) -> str:
+    return s.lower()
+
+@operation
+def Substring(s: str, pos_pair: Tuple[Optional[int], Optional[int]]) -> str:
+    start, end = pos_pair
+    return s[start:end]
+
+@operation
+def Delete(s: str, target: str) -> str:
+    return s.replace(target, '')
+
+@operation
+def AbsolutePosition(s: str, k: int) -> Optional[int]:
+    return k if 0 <= k < len(s) else None
+
+@operation
+def RegexPosition(s: str, boundaries: Tuple[re.Pattern, re.Pattern], k: int) -> Optional[int]:
+    matches = boundaries[0].finditer(s)
+    positions = [match.start() for match in matches]
+    return positions[k] if 0 <= k < len(positions) else None
+
+@operation
+def Pair(a, b):
+    return (a, b)
+
+@operation
+def StrPair(atom: str, s: str) -> Tuple[str, str]:
+    return Pair(atom, s)
+
+@operation
+def PositionPair(pos1: Optional[int], pos2: Optional[int]) -> Tuple[Optional[int], Optional[int]]:
+    return Pair(pos1, pos2)
+
+@operation
+def RegexPair(r1: re.Pattern, r2: re.Pattern) -> Tuple[re.Pattern, re.Pattern]:
+    return Pair(r1, r2)

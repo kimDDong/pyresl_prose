@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StringManipulationSynthesizer
-build_property.ProjectDir = C:\Users\MCC\OneDrive - 한양대학교\바탕 화면\수업\석박수업\3기\프로그램 합성\StringManipulationSynthesizer\
+build_property.ProjectDir = C:\Users\MCC\OneDrive - 한양대학교\바탕 화면\수업\석박수업\3기\프로그램 합성\git\pyresl_prose\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
